@@ -11,7 +11,9 @@ class Child extends Parent{
         System.out.println("I am child class constructor");
     }
     Child(int x, int y){
-        super(x);
+        super(x); // Whene this child class constructor be called, then it will call the paramiterised constructor of the parent class
+        // Is used to reffer the immidiate the imidiate patent class obj
+        // Basically a reference of the obj
         System.out.println("I am child class constructor");
     }
 
