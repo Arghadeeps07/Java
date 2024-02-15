@@ -1,6 +1,6 @@
 interface Cycle{
+    int i = 8; // We cannot change the properties of the interface it is by default final
     void applyBrake();
-    // int speed();
     void com();
 }
 class Bicycle implements Cycle{
